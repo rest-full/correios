@@ -1,0 +1,23 @@
+{
+    "name": "rest-full/correios",
+    "description": "An easy way to interact with the main features of Correios.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "7.*",
+        "rest-full/error": "1.*"
+    }
+}
